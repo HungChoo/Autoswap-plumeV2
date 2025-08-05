@@ -1,0 +1,15 @@
+{
+  "name": "Izumi-Swap-BOT",
+  "version": "1.0.0",
+  "description": "Daily auto-swap pUSD to PLUME with interval",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.10.0"
+  }
+}
